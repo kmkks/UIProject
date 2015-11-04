@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="News" representedClassName="News" syncable="YES">
+        <attribute name="newsId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="newsImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatter1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatter2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatter3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatterImageName2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatterImageName3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatterImageNeme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsSort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsSubhead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="NewsSort" representedClassName="NewsSort" syncable="YES">
+        <attribute name="if_Interested" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="userId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPwd" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="News" positionX="-63" positionY="-18" width="128" height="225"/>
+        <element name="User" positionX="-63" positionY="63" width="128" height="90"/>
+        <element name="NewsSort" positionX="-63" positionY="63" width="128" height="90"/>
+    </elements>
+</model>

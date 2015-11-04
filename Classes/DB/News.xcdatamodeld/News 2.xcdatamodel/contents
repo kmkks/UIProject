@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="News" representedClassName="News" syncable="YES">
+        <attribute name="newsId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="newsImageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatterImageName2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsMatterImageNeme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsSort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsSubhead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="News" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
